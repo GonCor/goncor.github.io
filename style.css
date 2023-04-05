@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
+  
 }
 
 
@@ -12,6 +13,7 @@ aside {
   float: left;
   width: 30%;
   background-color: #3e4147;
+  
 
  
 }
@@ -20,7 +22,6 @@ section {
   float: right;
   justify-content: center;
   width: 70%;
-
   background-color: #fffedf;
 
 }
@@ -44,10 +45,13 @@ h4 {
 
 .social_media {
   text-align: center;
+  padding-top: 2rem;
+  
   
 }
 
 .social_media img {
+  padding-top: 2rem;
   width: 3rem;
 }
 
