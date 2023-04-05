@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
 }
 
 
@@ -23,10 +25,6 @@ section {
 
 }
 
-p {
-  font-size: 15px;
-  
-}
 
 h4 {
   color: #fffedf;
@@ -66,10 +64,6 @@ h4 {
 }
 /*Right Seccion  */
 
-p {
-  font-size: 20px;
-
-}
 
 .resume {
   color: #fffedf;
@@ -114,7 +108,6 @@ p {
 }
 
 table {
-  font-family: Arial, sans-serif;
   margin: 0 auto;
   border-collapse: collapse;
 }
@@ -147,7 +140,6 @@ h2.name{
 
 td.name {
   color: #3e4147;
-  font-size: 14px;
   font-weight: bold;
   text-align: center;
   padding: 10px 0;
@@ -156,6 +148,7 @@ td.name {
 }
 body{
   background-color: #fffedf;
+  
 }
 @media (max-width: 900px) {
   .specialties-grid {
@@ -168,12 +161,14 @@ body{
   .specialty-item img {
     width: 100%;
   }
-  p {
-    font-size: 18px;
-  }
+
 }
 
 @media (max-width: 767px) {
+  body {
+    width: 100%;
+  }
+
   .specialties-grid {
     grid-template-columns: repeat(1, minmax(0, 0.75fr)); /* Cambiar a una sola columna */
     margin: 0;
@@ -188,9 +183,7 @@ body{
   .img-fluid {
     width: 100%;
   }
-  p {
-    font-size: 18px;
-  }
+
   aside {
     height: 3800px;
   }
