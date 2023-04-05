@@ -42,25 +42,18 @@ h4 {
   width: 60%; /* Cambiar esto a un valor relativo, por ejemplo 60% */
 }
 
-.description {
-  margin-top: 10px;
-  margin-bottom: 20px; /* Agregar dos puntos en lugar de un punto y coma */
-}
 
 .social_media {
   text-align: center;
-  margin-bottom: 450px;
+  
 }
 
 .social_media img {
-  width: 50px;
-  margin: 0 10px;
-  margin-top: 15px;
+  width: 3rem;
 }
 
 .language {
-  margin-top: 100px;
-  margin-bottom: 200px;
+  margin-top: 3rem;
 }
 /*Right Seccion  */
 
@@ -72,14 +65,15 @@ h4 {
 .section-title {
   background-color: #dfba69;
   color: #333;
-  margin: 25px;
+  margin: 1rem;
 }
 
 .specialties-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  margin-left: 30px;
-  grid-gap: 100px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  grid-gap: 1rem;
 }
 
 .specialty-item {
@@ -171,14 +165,12 @@ body{
 
   .specialties-grid {
     grid-template-columns: repeat(1, minmax(0, 0.75fr)); /* Cambiar a una sola columna */
-    margin: 0;
-    padding: 0;
-    margin-left: 25%;
+
     align-items: center;
   }
   .specialty-item {
     width: 80%;
-    margin: 0 auto;
+  
   }
   .img-fluid {
     width: 100%;
