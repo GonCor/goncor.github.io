@@ -12,7 +12,7 @@ aside {
   float: left;
   width: 30%;
   background-color: #3e4147;
-  height: 2500px;
+  height: 2000px;
  
 }
 
@@ -20,7 +20,7 @@ section {
   float: right;
   justify-content: center;
   width: 70%;
-  height: 2500px;
+  height: 2000px;
   background-color: #fffedf;
 
 }
@@ -34,7 +34,6 @@ h4 {
   transform: scaleX(-1);
   display: flex;
   justify-content: center;
-  margin-top: 50px;
   margin-bottom: 20px;
 }
 .img-fluid {
@@ -92,6 +91,7 @@ h4 {
 .specialty-item p {
   text-align: center;
   font-weight: bold;
+
 }
 
 /* Espacio Work */
@@ -146,7 +146,7 @@ body{
 }
 @media (max-width: 900px) {
   .specialties-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 0.75fr));
   }
   .specialty-item {
     width: 80%;
@@ -164,7 +164,7 @@ body{
   }
 
   .specialties-grid {
-    grid-template-columns: repeat(1, minmax(0, 0.75fr)); /* Cambiar a una sola columna */
+    grid-template-columns: repeat(2, minmax(0, 0.75fr)); /* Cambiar a una sola columna */
 
     align-items: center;
   }
@@ -181,5 +181,20 @@ body{
   }
   section {
     height: 3800px;
+  }
+
+  .specialty-item p {
+    font-size: 0.5rem;
+  }
+  aside {
+ 
+    width: 40%;
+   
+  }
+  
+  section {
+    width: 60%;
+
+  
   }
 }
