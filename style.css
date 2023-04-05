@@ -4,18 +4,23 @@
   box-sizing: border-box;
 }
 
+
+
 aside {
   float: left;
   width: 30%;
   background-color: #3e4147;
+  height: 2500px;
+ 
 }
 
 section {
   float: right;
   justify-content: center;
   width: 70%;
+  height: 2500px;
   background-color: #fffedf;
-  height: 100vh;
+
 }
 
 p {
@@ -149,6 +154,26 @@ td.name {
   width: 150px;
   border-radius: 0%;
 }
+body{
+  background-color: #fffedf;
+}
+@media (max-width: 900px) {
+  .specialties-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .specialty-item {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .specialty-item img {
+    width: 100%;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+
 
 @media (max-width: 767px) {
   .specialties-grid {
@@ -165,4 +190,17 @@ td.name {
   p {
     font-size: 18px; /* Cambiar el tamaño de fuente para dispositivos móviles */
   }
+  aside {
+   
+    height: 3800px;
+   
+  }
+  
+  section {
+  
+    height: 3800px;
+    
+  }
+
+
 }
