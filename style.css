@@ -7,15 +7,10 @@
   
 }
 
-
-
 aside {
   float: left;
   width: 30%;
   background-color: #3e4147;
-  
-
- 
 }
 
 section {
@@ -25,8 +20,6 @@ section {
   background-color: #fffedf;
 
 }
-
-
 h4 {
   color: #fffedf;
   padding-bottom: 10px;
@@ -41,26 +34,20 @@ h4 {
   border-radius: 15%;
   width: 60%; /* Cambiar esto a un valor relativo, por ejemplo 60% */
 }
-
-
 .social_media {
   text-align: center;
   padding-top: 2rem;
   
   
 }
-
 .social_media img {
   padding-top: 2rem;
   width: 3rem;
 }
-
 .language {
   margin-top: 3rem;
 }
 /*Right Seccion  */
-
-
 .resume {
   color: #fffedf;
 }
@@ -107,7 +94,7 @@ h4 {
 
 table {
   margin: 0 auto;
-  border-collapse: collapse;
+
 }
 
 .tools_it {
@@ -117,14 +104,13 @@ table {
 
 tr {
   display: inline-block;
-  margin: 1px;
-  margin-left: 25px;
-
-  width: 100%;
+  margin: 0.5rem;
+  margin-left: 2rem;
+  width: 20rem;
 }
 
 td {
-  width: 7%;
+  width: 1rem;
   border-radius: 100%;
 }
 
@@ -144,10 +130,8 @@ td.name {
   width: 150px;
   border-radius: 0%;
 }
-body{
-  background-color: #fffedf;
-  
-}
+
+
 @media (max-width: 900px) {
   .specialties-grid {
     grid-template-columns: repeat(2, minmax(0, 0.75fr));
@@ -168,7 +152,7 @@ body{
   }
 
   .specialties-grid {
-    grid-template-columns: repeat(1, minmax(0, 0.75fr)); /* Cambiar a una sola columna */
+    grid-template-columns: repeat(3, minmax(0, 0.75fr)); /* Cambiar a una sola columna */
 
     align-items: center;
   }
@@ -180,25 +164,25 @@ body{
     width: 100%;
   }
 
-  aside {
-    height: 3000px;
-  }
-  section {
-    height: 3000px;
-  }
+ 
 
   .specialty-item p {
     font-size: 0.5rem;
   }
   aside {
  
-    width: 40%;
+    width: 100%;
    
   }
   
   section {
-    width: 60%;
+    width: 100%;
 
   
   }
+  .tools_it {
+    width: 100%;
+  }
+ 
 }
+
